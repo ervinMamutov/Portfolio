@@ -1,10 +1,10 @@
-# Name of project
+# Portfolio
 
 > A longer description
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Portfolio](#portfolio)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
@@ -22,7 +22,7 @@
 
 ## General info
 
-> A short description
+> A short description This project to create my portfolio
 
 ## Screenshots
 
@@ -66,11 +66,11 @@ Project is: _in progress_
 
 ## Inspiration
 
-Project by freeCodeCamp.org
+It's my project
 
 ## Contact
 
-By [Name]
+By [Ervin Mamutov](https://github.com/ervinMamutov)
 
 ## Instructions for use
 
