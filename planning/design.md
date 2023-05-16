@@ -10,23 +10,23 @@
 
 ### Home page
 
-![Home page](../public/img/home-portfolio.svg)
+![Home page](../public/img/portfolio-home.png)
 
 ### My skills page
 
-![My skills](../public/img/skills-portfolio.svg)
+![My skills](../public/img/potrtfoloi-skills.png)
 
 ### My works
 
-![My works](../public/img/works-portfolio.svg)
+![My works](../public/img/portfolio-works.png)
 
 ### Contact
 
-![Contact](../public/img/contact-portfolio.svg)
+![Contact](../public/img/portfolio-contact.png)
 
 ### Blog
 
-![Blog](../public/img/blog-portfolio.svg)
+![Blog](../public/img/portfolio-blog.png)
 
 ---
 
