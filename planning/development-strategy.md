@@ -162,11 +162,11 @@ This is my portfolio
 
   - There's a personal blog.
 
-  <!-- describe the tasks to build this user story
+<!-- describe the tasks to build this user story
     these will have the `type: logic` label, for example
     not all projects will have all types of tasks
     and these are not the only possible types, just some suggestions
-  -->
+-->
 
 ### Logic: user story
 
