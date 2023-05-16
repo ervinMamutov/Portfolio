@@ -5,26 +5,45 @@ level are not necessarily in order, it's up to your group to decide how they fit
 into your strategy. These are also just suggestion, feel free to change them or
 create your own!
 
-## Must-Haves
+## 1. About
 
-> these are necessary for basic usability
+### Must-Have
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+#### Title
 
-## Should-Haves
+- [ ] As an user I can see information about person's name.
 
-> these will complete the user experience, but are not necessary
+  - There's a Name person.
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- [ ] As an user I can see information about person's surname.
 
-## Could-Haves
+  - There's Surname person.
 
-> would be really cool ... if there's time
+- [ ] As an user I can see person's photo.
+  - There's photo person.
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+#### Info block
+
+- [ ] As an user I can information about person's education.
+
+  - There's an information block on education.
+
+- [ ] As an user I can information about person's professional skills.
+
+  - There's an information block on professional skills.
+
+- [ ] As an user I can information about person's soft skills.
+
+  - There's an information block on soft skills.
+
+- [ ] As an user I can information about person's hobby.
+
+  - There's an information block on hobby.
+
+- [ ] As an user I can information about connection with person.
+  - There's an connection form.
+
+#### Footer
+
+- [ ] As a user I want to see the footer
+  - There's a footer containing the social links.
