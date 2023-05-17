@@ -14,7 +14,7 @@
 
 ### My skills page
 
-![My skills](../public/img/potrtfoloi-skills.png)
+![My skills](../public/img/portfolio-skills.png)
 
 ### My works
 
