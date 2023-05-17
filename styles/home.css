@@ -1,0 +1,109 @@
+/* reset default browser parameter */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  background-color: white;
+  line-height: 1;
+  font-family: Arial, sans-serif;
+  color: rgb(25, 26, 26);
+}
+
+/* -------------- header --------------- */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 13rem;
+  height: 100vh;
+  position: fixed;
+  right: auto;
+  z-index: 3;
+  margin: 1rem 1rem;
+  padding: 1.5rem 1.5rem;
+  background-color: hsl(0, 0%, 0%);
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.logo-image {
+  width: 13rem;
+  height: 9rem;
+  object-fit: cover;
+  border-radius: 47%;
+}
+
+.page-link {
+  padding: 0.5rem 3rem;
+  margin: 0.5rem;
+  border-radius: 5%;
+  border: 0.05rem solid blue;
+  background-color: hwb(0 18% 82%);
+}
+
+.link {
+  color: #f0f8ff;
+  font-size: 0.75rem;
+}
+
+.social-menu {
+  display: flex;
+}
+
+.social-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  background-color: rgb(240, 248, 255);
+  border-radius: 50%;
+}
