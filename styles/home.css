@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous:regular);
+
+@import url(https://fonts.googleapis.com/css?family=La+Belle+Aurore:regular&display=swap);
+
 /* reset default browser parameter */
 
 *,
@@ -40,15 +44,21 @@ body {
 }
 
 body {
-  background-color: white;
+  background-color: #1d1d1d;
   line-height: 1;
-  font-family: Arial, sans-serif;
-  color: rgb(25, 26, 26);
+  font-size: 1.6rem;
+  display: block;
+  min-width: 320px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  padding-left: 13rem;
+  overflow-x: scroll;
+  overflow-x: hidden;
 }
 
 /* -------------- header --------------- */
 
-.header {
+.menu-left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -61,7 +71,13 @@ body {
   margin: 1rem 1rem;
   padding: 1.5rem 1.5rem;
   background-color: hsl(0, 0%, 0%);
+  left: 0;
+  white-space: nowrap;
+  text-transform: uppercase;
+  text-align: center;
 }
+
+/* -------------- logo --------------- */
 
 .logo {
   display: flex;
@@ -76,6 +92,8 @@ body {
   border-radius: 47%;
 }
 
+/* -------------- menu --------------- */
+
 .page-link {
   padding: 0.5rem 3rem;
   margin: 0.5rem;
@@ -88,6 +106,8 @@ body {
   color: #f0f8ff;
   font-size: 0.75rem;
 }
+
+/* -------------- social --------------- */
 
 .social-menu {
   display: flex;
@@ -106,4 +126,81 @@ body {
   overflow: hidden;
   background-color: rgb(240, 248, 255);
   border-radius: 50%;
+}
+
+/* -------------- description --------------- */
+
+.description {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 9rem 3rem;
+  transition: opacity 0.4s;
+  z-index: 1;
+  background-color: black;
+  opacity: 1;
+}
+
+h1 {
+  color: #fff;
+  font-family: Righteous, sans-serif;
+  line-height: 4.7rem;
+  font-size: 4rem;
+  font-weight: 400;
+  padding: 0.5rem 0.5rem;
+  margin-top: 7rem;
+}
+
+h1::before {
+  content: "<h1>";
+  font-family: "La Belle Aurore", cursive;
+  color: #515152;
+  font-size: 1.8rem;
+  position: absolute;
+  margin-top: -5rem;
+  left: 2rem;
+}
+
+h1::after {
+  content: "<h1/>";
+  font-family: "La Belle Aurore", cursive;
+  color: #515152;
+  font-size: 1.8rem;
+  position: absolute;
+  margin-top: 3.8rem;
+  left: 2rem;
+}
+
+/* -------------- animation --------------- */
+
+@keyframes rubberBand {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.76, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.25, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
 }
