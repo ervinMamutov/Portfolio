@@ -65,7 +65,6 @@
   filter: grayscale(10%) contrast(120%);
   box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
   display: block;
-  transition: all 0.5s cubic-bezier(0.645, 0.645, 0.355, 1);
   margin-top: -1rem;
   border-radius: 10px;
 }
