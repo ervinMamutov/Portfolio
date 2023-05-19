@@ -62,5 +62,8 @@
   "liveServer.settings.port": 5504,
   //-------- Markdown configuration --------
   // Enable path suggestoins while writing links in markdown files
-  "markdown.suggest.paths.enabled": true
+  "markdown.suggest.paths.enabled": true,
+  "cSpell.words": [
+    "bezier"
+  ]
 }

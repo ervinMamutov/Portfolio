@@ -11,7 +11,6 @@
   - [Technologies](#technologies)
   - [Setup](#setup)
   - [Code Examples](#code-examples)
-  - [Features](#features)
   - [Status](#status)
   - [Inspiration](#inspiration)
   - [Contact](#contact)
@@ -26,39 +25,51 @@
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./public/img/portfolio-screen.png)
 
 ## Technologies
 
-- Node 14.16.0
+- Node 18
 - VSC code
-- JavaScript
-- ...
-- ...
+- Html5
+- CSS3
+- VSC code
+- npm
 
 ## Setup
 
-- `npm run start`
+- `clone the rep`
+- `npm install`
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```html
+<main>
+  <section class="photo-container">
+    <a href="./pages/about.html" class="photo a-photo">
+      <img src="./public/img/ervin.jpg" alt="my photo" class="photo-my" />
+      <h1 class="name">Ervin Mamutov</h1>
+      <div class="glow-wrap">
+        <i class="glow"></i>
+      </div>
+    </a>
+  </section>
+</main>
 ```
 
-## Features
-
-List of features ready and Todos for future development
-
--
--
--
-
-To-do list:
-
--
--
+```css
+.photo .photo-my {
+  width: 20rem;
+  height: 30rem;
+  object-fit: cover;
+  filter: grayscale(10%) contrast(120%);
+  box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+  display: block;
+  transition: all 0.5s cubic-bezier(0.645, 0.645, 0.355, 1);
+  margin-top: -1rem;
+  border-radius: 10px;
+}
+```
 
 ## Status
 
@@ -66,7 +77,7 @@ Project is: _in progress_
 
 ## Inspiration
 
-It's my project
+This is a portfolio development project.
 
 ## Contact
 
@@ -74,12 +85,9 @@ By [Ervin Mamutov](https://github.com/ervinMamutov)
 
 ## Instructions for use
 
-<details>
-  <summary>Getting Started</summary>
-
 <!-- a guide to using this repository -->
 
-1. `git clone git@github.com:HackYourFutureBelgium/template-markdown.git`
+1. `git clone git@github.com:ervinMamutov/Portfolio.git`
 2. `cd template-markdown`
 3. `npm install`
 
