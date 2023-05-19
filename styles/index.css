@@ -6,5 +6,63 @@
 
 @import url(https://fonts.googleapis.com/css?family=Material+Icons:regular&display=swap);
 
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,italic,500,500italic,700,700italic&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=La+Belle+Aurore:regular&display=swap);
+
 @import url("./home.css");
 @import url("./skills.css");
+
+/* reset default browser parameter */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  background-color: #000;
+  line-height: 1;
+  font-size: 1.6rem;
+  display: block;
+  min-width: 320px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  padding-left: 13rem;
+  overflow-x: scroll;
+  overflow-x: hidden;
+}
