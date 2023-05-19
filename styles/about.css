@@ -12,3 +12,25 @@
   padding: 1.5rem 1.5rem;
   text-align: left;
 }
+
+.text-field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+/* .about-title-body {
+} */
+
+.about-title {
+  font-family: Poppins, sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  margin: revert;
+}
+
+.about-text {
+  font-family: Spectral, sans-serif;
+  font-size: 2rem;
+  margin: revert;
+}
