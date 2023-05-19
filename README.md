@@ -43,6 +43,8 @@
 
 ## Code Examples
 
+-HTML
+
 ```html
 <main>
   <section class="photo-container">
@@ -56,6 +58,8 @@
   </section>
 </main>
 ```
+
+-CSS
 
 ```css
 .photo .photo-my {
