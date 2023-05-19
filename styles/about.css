@@ -1,0 +1,14 @@
+.description-about {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  right: auto;
+  z-index: 4;
+  margin: 1rem 1rem;
+  padding: 1.5rem 1.5rem;
+  text-align: left;
+}
