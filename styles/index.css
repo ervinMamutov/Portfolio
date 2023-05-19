@@ -1,3 +1,5 @@
+/* ----- fonts ----- */
+
 @import url(https://fonts.googleapis.com/css?family=Space+Mono:regular,700&display=swap);
 
 @import url(https://fonts.googleapis.com/css?family=Righteous:regular&display=swap);
@@ -10,8 +12,11 @@
 
 @import url(https://fonts.googleapis.com/css?family=La+Belle+Aurore:regular&display=swap);
 
+/* ----- pages ----- */
+
 @import url("./home.css");
 @import url("./skills.css");
+@import url("./about.css");
 
 /* reset default browser parameter */
 
