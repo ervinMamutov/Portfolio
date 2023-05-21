@@ -1,4 +1,9 @@
 /* ----- home page ----- */
+body {
+  background-image: url("../public/img/background-code.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
 .menu-left {
   display: flex;
@@ -18,7 +23,7 @@
   text-align: center;
 }
 
-/* -------------- logo --------------- */
+/* ----- logo ----- */
 
 .logo {
   display: flex;
@@ -184,6 +189,28 @@
   color: #fff;
 }
 
+/* ----- main ----- */
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+
+  /* justify-content: space-between; */
+
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  position: fixed;
+  right: auto;
+  z-index: 3;
+  margin: 1rem 1rem;
+  padding: 1.5rem 1.5rem;
+  left: 14rem;
+  white-space: nowrap;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 /* ----- photo ----- */
 .a-photo {
   color: #111;
@@ -191,9 +218,9 @@
 
 .photo {
   position: absolute;
-  top: 50%;
+  top: 51%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-117%, -48%);
   display: block;
 }
 
@@ -244,19 +271,48 @@
   margin-top: 0;
 }
 
-/* .description {
-  height: 100vh;
-  overflow: hidden;
+/* ----- description ----- */
+.description-home {
   display: flex;
+  position: absolute;
+  top: 31%;
+  left: 49%;
   align-items: center;
-  position: relative;
-  padding: 9rem 3rem;
-  transition: opacity 0.4s;
-  z-index: 1;
-  background-color: black;
-  opacity: 1;
+  padding: 1rem 1rem;
+  width: 45%;
 }
 
+.container {
+  perspective: 800px;
+}
+
+.description-home-title {
+  font-family: Lato, sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  transform: perspective(800px) rotateY(23deg);
+}
+
+.description-text {
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: left;
+  margin-bottom: 1rem;
+  transform: perspective(800px) rotateY(23deg);
+}
+
+/* 
+.text-field {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-117%, -50%);
+  display: block;
+} */
+
+/* 
 h1 {
   color: #fff;
   font-family: Righteous, sans-serif;
