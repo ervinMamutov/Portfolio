@@ -1,13 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,italic,700&display=swap);
+
 /* btn */
+
+/* .menu-left {
+  background-color: #fff;
+} */
+
+/* .btn-menu-link {
+  padding: 10px 25px;
+} */
+
+/* .btn-menu-nav {
+  padding: 10px 25px;
+} */
+
+.btn-link {
+  background-color: black;
+}
 
 .custom-btn {
   width: 9rem;
   height: 2.5rem;
   color: #fff;
   border-radius: 10px;
-  padding: 10px 25px;
+
+  /*   padding: 10px 25px; 
   font-family: "Lato", sans-serif;
   font-weight: 500;
+ */
+
+  margin: 7px 0 4px 37px;
   background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -16,8 +38,7 @@
   outline: none;
 }
 
-.btn-12 {
-  position: relative;
+.btn-menu {
   right: 20px;
   bottom: 20px;
   border: none;
@@ -29,7 +50,34 @@
   perspective: 230px;
 }
 
-.btn-12 .btn-text {
+.btn-text {
+  font-family: Lato, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.btn-menu .btn-text {
+  background: rgb(0, 172, 238);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 172, 238, 1) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+  display: block;
+  position: absolute;
+  width: 9.5rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  margin: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* .btn-menu .btn-text {
   background: rgb(0, 172, 238);
   background: linear-gradient(
     0deg,
@@ -48,9 +96,9 @@
   box-sizing: border-box;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-}
+} */
 
-.btn-12 .btn-text:nth-child(1) {
+.btn-menu .btn-text:nth-child(1) {
   -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   transform: rotateX(90deg);
@@ -59,7 +107,16 @@
   transform-origin: 50% 50% -20px;
 }
 
-.btn-12 .btn-text:nth-child(2) {
+/* .btn-menu .btn-text:nth-child(1) {
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+} */
+
+.btn-menu .btn-text:nth-child(2) {
   -webkit-transform: rotateX(0deg);
   -moz-transform: rotateX(0deg);
   transform: rotateX(0deg);
@@ -68,7 +125,7 @@
   transform-origin: 50% 50% -20px;
 }
 
-.btn-12:hover .btn-text:nth-child(1) {
+.btn-menu:hover .btn-text:nth-child(1) {
   box-shadow: inset 2px 2px 2px 0 rgba(255, 255, 255, 0.5),
     7px 7px 20px 0 rgba(0, 0, 0, 0.1), 4px 4px 5px 0 rgba(0, 0, 0, 0.1);
   -webkit-transform: rotateX(0deg);
@@ -76,7 +133,15 @@
   transform: rotateX(0deg);
 }
 
-.btn-12:hover .btn-text:nth-child(2) {
+/* .btn-menu:hover .btn-text:nth-child(1) {
+  box-shadow: inset 2px 2px 2px 0 rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.1), 4px 4px 5px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+} */
+
+.btn-menu:hover .btn-text:nth-child(2) {
   box-shadow: inset 2px 2px 2px 0 rgba(255, 255, 255, 0.5),
     7px 7px 20px 0 rgba(0, 0, 0, 0.1), 4px 4px 5px 0 rgba(0, 0, 0, 0.1);
   color: transparent;
@@ -84,6 +149,16 @@
   -moz-transform: rotateX(-90deg);
   transform: rotateX(-90deg);
 }
+
+/* 
+.btn-menu:hover .btn-text:nth-child(2) {
+  box-shadow: inset 2px 2px 2px 0 rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.1), 4px 4px 5px 0 rgba(0, 0, 0, 0.1);
+  color: transparent;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+} */
 
 /* description-about */
 
