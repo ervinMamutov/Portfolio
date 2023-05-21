@@ -1,4 +1,10 @@
 /* ----- skills page ----- */
+.skills {
+  background-image: url("../public/img/background-skills.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .description-skills {
   position: relative;
   display: inline-block;

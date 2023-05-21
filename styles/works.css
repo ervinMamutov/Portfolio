@@ -1,0 +1,6 @@
+/* ----- works page ----- */
+.works {
+  background-image: url("../public/img/background-works.jpg");
+  background-size: cover;
+  background-position: center;
+}

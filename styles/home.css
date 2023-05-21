@@ -1,6 +1,6 @@
 /* ----- home page ----- */
-body {
-  background-image: url("../public/img/background-code.jpg");
+.home {
+  background-image: url("../public/img/background-home.jpg");
   background-size: cover;
   background-position: center;
 }
