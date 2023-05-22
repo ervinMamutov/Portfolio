@@ -29,3 +29,16 @@
   height: 3.5rem;
   box-shadow: inset 2px 2px red;
 }
+
+/* ----- icon ----- */
+.icon-skills-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-skills {
+  width: 9%;
+  height: auto;
+  background: rgba(255, 255, 0, 0.697);
+  margin: 1rem;
+}
