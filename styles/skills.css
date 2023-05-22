@@ -1,4 +1,10 @@
 /* ----- skills page ----- */
+.skills {
+  background-image: url("../public/img/background-skills.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .description-skills {
   position: relative;
   display: inline-block;
@@ -22,4 +28,17 @@
   width: 10rem;
   height: 3.5rem;
   box-shadow: inset 2px 2px red;
+}
+
+/* ----- icon ----- */
+.icon-skills-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-skills {
+  width: 20%;
+  height: auto;
+  background: rgba(255, 255, 0, 0.697);
+  margin: 1rem;
 }

@@ -1,0 +1,6 @@
+/* ----- blog page ----- */
+.blog {
+  background-image: url("../public/img/background-blog.jpg");
+  background-size: cover;
+  background-position: center;
+}
